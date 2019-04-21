@@ -1,0 +1,1 @@
+$("#divIframe").html("<iframe id='frameprueba' src='inicio.php'></iframe>");
