@@ -80,12 +80,21 @@ h2
 {
     padding:3px;
     margin-bottom: 15px;
+    background: linear-gradient(to right, white 50%, var(--color_segundo) 50%);
+    background-size: 200% 100%;
+    transition:all 1s ease;
+    border-left: 1px solid var(--color_tercero);
 }
 
 .card-negocio:hover
 {
-    border-radius: 30px;
-    border: 1px solid var(--color_tercero);
+    background-position:right bottom;
+    border-radius: 0px 30px 30px 0px;
+    /* padding: 0px; */
+    /* border:0x 1px 1px 0px; */
+    border-right: 1px solid var(--color_tercero);
+    /* border-top: 1px solid var(--color_tercero);
+    border-bottom: 1px solid var(--color_tercero); */
 }
 
 @media screen and (min-width:300px)
@@ -138,8 +147,8 @@ h2
 
 .card-negocio>i
 {
-    border:1px solid var(--color_tercero);
-    border-radius:50%;
+    /* border:1px solid var(--color_tercero); */
+    /* border-radius:50%; */
     padding:13px;
     font-size: xx-large;
 }
@@ -147,11 +156,15 @@ h2
 .card-negocio:hover>i
 {
     color: var(--color_cuarto);
+    border:0px;
+    /* border-radius: 30px; */
+    /* border-left:1px solid var(--color_tercero); */
 }
 
 .card-actualidad
 {
     height: 300px !important;
+    border-radius: 5px;
     border:1px solid var(--color_tercero);
     margin-left:20px;
     cursor: pointer;
