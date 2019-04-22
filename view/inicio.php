@@ -55,12 +55,37 @@
             <div class="col s12 m6 l6 xl6">
                 <div class="card-negocio">
                     <i class="fas fa-bus-alt"></i>
-                    <h6>sistemas inteligentes de transporte</h6>
+                    <h6>1sistemas inteligentes de transporte</h6>
                 </div>
             </div>
 
-            <!-- <div class="col s12 m5 l6 xl6">
-            </div> -->
+            <div class="col s12 m6 l6 xl6">
+                <div class="card-negocio">
+                    <i class="fas fa-bus-alt"></i>
+                    <h6>2sistemas inteligentes de transporte</h6>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l6 xl6">
+                <div class="card-negocio">
+                    <i class="fas fa-bus-alt"></i>
+                    <h6>3sistemas inteligentes de transporte</h6>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l6 xl6">
+                <div class="card-negocio">
+                    <i class="fas fa-bus-alt"></i>
+                    <h6>4sistemas inteligentes de transporte</h6>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l6 xl6">
+                <div class="card-negocio">
+                    <i class="fas fa-bus-alt"></i>
+                    <h6>5sistemas inteligentes de transporte</h6>
+                </div>
+            </div>
 
         </div>
 

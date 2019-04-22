@@ -3,7 +3,7 @@ body{
 --color_tercero:rgb(11, 202, 19); */
 --color_tercero:rgb(12, 12, 195,0.8);
 --color_segundo:rgb(68, 255, 75, 0.2);
---color_cuarto: ;
+--color_cuarto: green;
 }
 
 .slick-dots li button:before
@@ -78,7 +78,7 @@ h2
 
 .card-negocio
 {
-    padding:4px;
+    padding:3px;
     margin-bottom: 15px;
 }
 
@@ -140,13 +140,13 @@ h2
 {
     border:1px solid var(--color_tercero);
     border-radius:50%;
-    padding:15px;
+    padding:13px;
     font-size: xx-large;
 }
 
 .card-negocio:hover>i
 {
-    color: var(--color_segundo);
+    color: var(--color_cuarto);
 }
 
 .card-actualidad
