@@ -37,7 +37,9 @@
         <li><a href="#!">three</a></li>
     </ul>
     <a class="btn dropdown-trigger" href="#!" data-target="dropdown2">Dropdown<i class="material-icons right">arrow_drop_down</i></a> -->
-    <div id="head"></div>
+    <div id="head">
+        <?php require_once '../view/headView.php'; ?>
+    </div>
     <div id="divIframe"></div>
 
     <script src="../js/principal.js"></script>
