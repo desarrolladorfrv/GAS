@@ -134,7 +134,7 @@
         dotsClass:"slick-dots",
         infinite: true,
         autoplay:true,
-        autoplaySpeed:2000,
+        autoplaySpeed:3000,
         speed: 800,
         prevArrow:"",
         nextArrow:"",
