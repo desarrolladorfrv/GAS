@@ -54,35 +54,35 @@
 
             <div class="col s12 m6 l6 xl6">
                 <div class="card-negocio">
-                    <i class="fas fa-bus-alt"></i>
+                    <i class="fas fa-industry"></i>
                     <h6>1sistemas inteligentes de transporte</h6>
                 </div>
             </div>
 
             <div class="col s12 m6 l6 xl6">
                 <div class="card-negocio">
-                    <i class="fas fa-bus-alt"></i>
+                    <i class="fas fa-road"></i>
                     <h6>2sistemas inteligentes de transporte</h6>
                 </div>
             </div>
 
             <div class="col s12 m6 l6 xl6">
                 <div class="card-negocio">
-                    <i class="fas fa-bus-alt"></i>
+                    <i class="fas fa-gas-pump"></i>
                     <h6>3sistemas inteligentes de transporte</h6>
                 </div>
             </div>
 
             <div class="col s12 m6 l6 xl6">
                 <div class="card-negocio">
-                    <i class="fas fa-bus-alt"></i>
+                    <i class="fas fa-tree"></i>
                     <h6>4sistemas inteligentes de transporte</h6>
                 </div>
             </div>
 
             <div class="col s12 m6 l6 xl6">
                 <div class="card-negocio">
-                    <i class="fas fa-bus-alt"></i>
+                    <i class="fas fa-tools"></i>
                     <h6>5sistemas inteligentes de transporte</h6>
                 </div>
             </div>
