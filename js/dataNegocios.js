@@ -8,7 +8,7 @@ dataNegocios[0] =
     "La gran variedad de proyectos ejecutados por SICE en los cinco continentes, su dilatada experiencia y profundo conocimiento, a la vanguardia de la técnica, hacen de SICE un socio estratégico en el que depositar la confianza para un resultado de calidad sobresaliente.<br>",
     moreInfo:
     [{
-        title:"tráfico urbano",image:"../assets/image/icon_trafico_urbano.jpg",
+        title:"Tráfico Urbano",image:"../assets/image/icon_trafico_urbano.jpg",
         info:"La gestión óptima y eficiente de la movilidad en las ciudades se construye en base a cuatro pilares: "+ 
         "una aplicación racional de la tecnología, una correcta interoperabilidad de todos los actores que forman parte de la misma, independientemente de su naturaleza pública, privada o medio de transporte, "+
         "un correcto mantenimiento preventivo, correctivo y evolutivo, una eficiente operación en la gestión.<br>Desde hace años SICE lleva implementando proyectos a la vanguardia de la tecnología para la gestión "+
@@ -16,7 +16,7 @@ dataNegocios[0] =
         "y operación de los sistemas.<br>La plataforma en que SICE basa estas premisas se fundamenta, básicamente, en los siguientes pilares:<br>1.- Gestión Inteligente de la Movilidad a través de su solución Smart Mobility "+
         "en el ámbito urbano ADIMOT<br>2.- Gestión de la Prioridad al Transporte Público mediante sus equipos RBG.<br>3.- Controladores Semafóricos MFU.<br>4.- Gestión del Enforcement aplicando tecnología tal como sistemas "+
         "de foto rojo, control de velocidad en travesías, radares por tramo, giros prohibidos, etc.<br>5.- Tecnologías aplicadas y pensadas especialmente para personas con movilidad reducida.",
-        image2:"",
+        image2:"../assets/image/TUNELES_0.jpg",
         files:
         [{
             title:"",url:"",size:""

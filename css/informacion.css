@@ -1,0 +1,26 @@
+li.active>div>i:before
+{
+    content:"arrow_drop_up";
+}
+
+li>div>i:after
+{
+    content:"arrow_drop_down";
+}
+
+li.active>div>i:after
+{
+    visibility:hidden;
+}
+
+#image2
+{
+    max-width:100%;
+    min-height:200px !important;
+    /* clip-path:inset(0 1% 0 1%); */
+    /* background-image: url(../assets/image/TUNELES_0.jpg); */
+    background-position: center;
+    background-size: cover;
+    /* text-align:center; */
+    margin:0px !important;
+}
