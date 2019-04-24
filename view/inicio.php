@@ -11,6 +11,7 @@
     <script src="../assets/library/jquery/jquery.js"></script>
 
     <link rel="stylesheet" href="../css/inicio.css">
+    <link rel="stylesheet" href="../css/global.css">
 
     <script src="../assets/library/slick/slick.min.js"></script>
     <link rel="stylesheet" href="../assets/library/slick/slick.css">

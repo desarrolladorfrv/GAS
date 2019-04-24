@@ -3,9 +3,9 @@
     text-align:justify;
 }
 
-#moreInfo
+.moreInfo_card
 {
-    border-top:4px solid gold;
+    /* border-top:4px solid gold; */
     margin: 0px;
     padding: 0px;
 }
@@ -20,4 +20,15 @@
 .moreInfo_title
 {
     text-transform: uppercase;
+}
+
+/* materialize */
+.progress
+{
+    margin:0px;
+    background-color: var(--color_segundo);
+}
+.indeterminate
+{
+    background-color: var(--color_tercero);
 }

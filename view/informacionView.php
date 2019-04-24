@@ -24,6 +24,9 @@
   </ul>
 </body>
 <script>
-    
+    $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+        
 </script>
 </html>

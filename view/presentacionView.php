@@ -10,6 +10,7 @@
     <script src="../assets/library/jquery/jquery.js"></script>
 
     <link rel="stylesheet" href="../css/presentacion.css">
+    <link rel="stylesheet" href="../css/global.css">
 
 </head>
 <body class="row">
@@ -18,13 +19,8 @@
         <div class="col s12 m10 l10 xl10 center">
             <h3 id="title"></h3>
         </div>
-        <div id="moreInfo" class="col s12 m12 l6 xl4">
-            <!-- <div class="col s12 m12 l12 xl12"> -->
-                <img class="moreInfo_image col s3 m2 l4 xl4" src="../assets/image/icon_trafico_urbano.jpg">
-                <p class="moreInfo_title">asd asda sd asd asd</p>
-            <!-- </div> -->
-        </div>
-        <p class="col " id="info"></p>
+        <div id="moreInfo" class="col s12 m12 l6 xl4"></div>
+        <p class="col s12 m12 l12 xl12" id="info"></p>
     </div>
     <!-- <div class="col s0 m1 l1 xl1"></div>
     <div class="col s12 m10 l10 xl10">
@@ -38,9 +34,24 @@
 principal = ()=>
 {
     let tempData = this.parent.getDataIframe();
+    let tempObj;
     $("#title").html(tempData.title);
     $("#info").html(tempData.info);
+    $.each(tempData.moreInfo,(index,value)=>
+    {
+        console.log(value);
+        tempObj = $("<a>",{class:"moreInfo_Card",onClick:"abrirInformacion(this)"});
+        $(tempObj)[0].myData = value;
+        tempData = '<div class="progress"><div class="indeterminate"></div></div>'+
+            '<img class="moreInfo_image col s3 m2 l4 xl4" src="'+value.image+'">'+
+            '<p class="moreInfo_title">'+value.title+'</p>';
+        $(tempObj).append(tempData);
+        $("#moreInfo").append(tempObj);
+    });
 }
 principal();
+
+abrirInformacion = (obj)=>
+{}
 </script>
 </html>

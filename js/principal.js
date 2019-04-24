@@ -11,6 +11,13 @@ iframePresentacionView = (data)=>
     $("#divIframe").html(tempData);
 }
 
+iframeInformacionView = (data)=>
+{
+    let tempData = $("<iframe>",{id:"frameprueba",src:"informacionView.php"});
+    $("#divIframe")[0].myData = data;
+    $("#divIframe").html(tempData);
+}
+
 getDataIframe = ()=>
 {
     return $("#divIframe")[0].myData;
