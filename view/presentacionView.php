@@ -22,11 +22,6 @@
         <div id="moreInfo" class="col s12 m12 l6 xl4"></div>
         <p class="col s12 m12 l12 xl12" id="info"></p>
     </div>
-    <!-- <div class="col s0 m1 l1 xl1"></div>
-    <div class="col s12 m10 l10 xl10">
-        <p id="info"></p>
-    </div> -->
-    <!-- </div> -->
 
     <script src="../assets/library/materialize/js/materialize.min.js"></script>   
 </body>
@@ -39,8 +34,7 @@ principal = ()=>
     $("#info").html(tempData.info);
     $.each(tempData.moreInfo,(index,value)=>
     {
-        console.log(value);
-        tempObj = $("<a>",{class:"moreInfo_Card",onClick:"abrirInformacion(this)"});
+        tempObj = $("<div>",{class:"moreInfo_Card col s12 m12 l12 xl12",onClick:"abrirInformacion(this)"});
         $(tempObj)[0].myData = value;
         tempData = '<div class="progress"><div class="indeterminate"></div></div>'+
             '<img class="moreInfo_image col s3 m2 l4 xl4" src="'+value.image+'">'+
@@ -52,6 +46,10 @@ principal = ()=>
 principal();
 
 abrirInformacion = (obj)=>
-{}
+{
+    console.log();
+    let tempData = $(obj)[0].myData;
+    this.parent.iframeInformacionView(tempData);
+}
 </script>
 </html>
