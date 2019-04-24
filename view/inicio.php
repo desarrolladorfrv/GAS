@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="../assets/library/slick/slick.css">
     <link rel="stylesheet" href="../assets/library/slick/slick-theme.css">
 
+    <script src="../js/dataNegocios.js"></script>
+
 </head>
 <body>
     <div class="row" >
@@ -40,12 +42,12 @@
         </div>
 
         <div class="col s0 m0 l1 xl1"></div>
-        <div class="col s12 m12 l6 xl5">
+        <div id="lineasNegocio" class="col s12 m12 l6 xl5">
             <div class="center col s12 m12 l12 xl12">
                 <h4>Líneas de negocio</h4>
             </div>
 
-            <div class="col s12 m6 l6 xl6">
+            <!-- <div class="col s12 m6 l6 xl6">
                 <div class="card-negocio">
                     <i class="fas fa-bus-alt"></i>
                     <h6>sistemas inteligentes de transporte</h6>
@@ -85,7 +87,7 @@
                     <i class="fas fa-tools"></i>
                     <h6>5sistemas inteligentes de transporte</h6>
                 </div>
-            </div>
+            </div> -->
 
         </div>
 
@@ -257,41 +259,26 @@
         ]
     });
 
-    // $('.responsive').slick({
-    //     dots: true,
-    //     infinite: false,
-    //     speed: 300,
-    //     slidesToShow: 4,
-    //     slidesToScroll: 4,
-    //     responsive:
-    //     [
-    //         {
-    //             breakpoint: 1024,
-    //             settings:
-    //             {
-    //                 slidesToShow: 3,
-    //                 slidesToScroll: 3,
-    //                 infinite: true,
-    //                 dots: true
-    //             }
-    //         },
-    //         {
-    //             breakpoint: 600,
-    //             settings:
-    //             {
-    //                 slidesToShow: 2,
-    //                 slidesToScroll: 2
-    //             }
-    //         },
-    //         {
-    //             breakpoint: 480,
-    //             settings:
-    //             {
-    //                 slidesToShow: 1,
-    //                 slidesToScroll: 1
-    //             }
-    //         }
-    //     ]
-    //     });
+    creaLineasNegocio = ()=>
+    {
+        let tempData = "";
+        let tempData2 = "";
+        $.each(dataNegocios,(index,value)=>
+        {
+            tempData2 = '<div class="card-negocio">'+
+                '<i class="fas fa-bus-alt"></i>'+
+                '<h6>'+value.title+'</h6></div>';
+            tempData = $("<a>",{onClick:"abrirPresentacion(this)",class:"col s12 m6 l6 xl6"}).append(tempData2);
+            $(tempData)[0].myData = value;
+            $("#lineasNegocio").append(tempData);
+        });
+    }
+    creaLineasNegocio();
+
+    abrirPresentacion = (obj)=>
+    {
+        let tempData = $(obj)[0].myData;
+        this.parent.iframePresentacionView(tempData);
+    };
 </script>
 </html>

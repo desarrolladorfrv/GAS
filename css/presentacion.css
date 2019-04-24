@@ -1,0 +1,23 @@
+#info
+{
+    text-align:justify;
+}
+
+#moreInfo
+{
+    border-top:4px solid gold;
+    margin: 0px;
+    padding: 0px;
+}
+
+.moreInfo_image
+{
+    /* width:100%; */
+    padding: 0px 10px 0px 0px !important;
+    margin: 0px !important;
+}
+
+.moreInfo_title
+{
+    text-transform: uppercase;
+}
