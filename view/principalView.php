@@ -42,7 +42,9 @@
         <?php require_once '../view/headView.php'; ?>
     </div>
     <div id="divIframe"></div>
-
+   
+    
+    
     <script src="../js/principal.js"></script>
     <script src="../assets/library/materialize/js/materialize.min.js"></script>    
 </body>

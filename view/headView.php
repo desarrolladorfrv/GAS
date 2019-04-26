@@ -37,11 +37,11 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="blog-grid.html">Actualidad</a>
+            <a class="nav-link" href="blog-grid.html">ACTUALIDAD</a>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contacto</a>
+            <a class="nav-link" href="contact.html">CONTACTO</a>
           </li>
         </ul>
       </div>
