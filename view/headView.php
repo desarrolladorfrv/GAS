@@ -6,7 +6,7 @@
         <span></span>
         <span></span>
       </button>
-      <a class="navbar-brand text-brand" href="index.html">GASS<span class="color-b">  GROUP</span></a>
+      <a class="navbar-brand text-brand" href="">GASS<span class="color-b">  GROUP</span></a>
       <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
         data-target="#navbarTogglerDemo01" aria-expanded="false">
         <span class="fa fa-search" aria-hidden="true"></span>
@@ -22,8 +22,8 @@
               SOBRE GASS GROUP
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="property-single.html">INFORMACION CORPORATIVA</a>
-              <a class="dropdown-item" href="blog-single.html">COMPROMISOS Y POLITICAS</a>
+              <a class="dropdown-item" href="">INFORMACION CORPORATIVA</a>
+              <a class="dropdown-item" href="">COMPROMISOS Y POLITICAS</a>
             </div>
           </li>
            <li class="nav-item dropdown">
@@ -32,16 +32,16 @@
               LINEAS DE NEGOCIOS
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="property-single.html">OBRAS INFRAESTRUCTURAS</a>
-                <a class="dropdown-item" href="property-single.html">CONTROL DE PROCESOS</a>
+              <a class="dropdown-item" href="">OBRAS INFRAESTRUCTURAS</a>
+                <a class="dropdown-item" href="">CONTROL DE PROCESOS</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="blog-grid.html">ACTUALIDAD</a>
+            <a class="nav-link" href="">ACTUALIDAD</a>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">CONTACTO</a>
+            <a class="nav-link" href="">CONTACTO</a>
           </li>
         </ul>
       </div>
