@@ -7,6 +7,15 @@ body
     --color_cuarto: green;
 }
 
+::-webkit-scrollbar{width: 7px;}
+::-webkit-scrollbar-thumb
+{
+    background-color: var(--color_tercero);
+    border-radius:20px;
+}
+/* ::-webkit-scrollbar-corner{background-color: red;} */
+/* ::-webkit-scrollbar-track {background-color: var();} */
+
 .slick-dots li button:before
 {
     font-size:30px !important;
