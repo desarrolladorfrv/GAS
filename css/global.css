@@ -6,3 +6,14 @@ body
     --color_segundo:rgb(68, 255, 75, 0.2);
     --color_cuarto: green;
 }
+
+.slick-dots li button:before
+{
+    font-size:30px !important;
+    color:silver !important;
+}
+
+.slick-dots li.slick-active button:before
+{
+    color:rgba(44, 44, 128, 0.8) !important;
+}

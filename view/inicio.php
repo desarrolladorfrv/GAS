@@ -163,25 +163,6 @@
                         <p class="cortar-actualidad">La importancia del Agua: SICE colabora en las jornadas del Día Mundial del Agua en la Confederación Hidrográfica del Tajo</p>
                     </a>
                 </div>
-
-                <!-- <div class="multiple-item">
-                    <a class="card-actualidad">
-                        <div class="caroucel-actual-img1"></div>
-                        <p class="cortar-actualidad">SICE obtiene el nivel 3 de madurez en Modelo CMMI para Desarrollo: un reconocimiento al trabajo bien hecho</p>
-                    </a>
-                    <a class="card-actualidad">
-                        <div class="caroucel-actual-img1"></div>
-                        <p class="cortar-actualidad">El semáforo: 150 años de historia</p>
-                    </a>
-                    <a class="card-actualidad">
-                        <div class="caroucel-actual-img1"></div>
-                        <p class="cortar-actualidad">El túnel SR 99 de Seattle, uno de los túneles más seguros jamás construidos, ha abierto al tráfico</p>
-                    </a>
-                    <a class="card-actualidad">
-                        <div class="caroucel-actual-img1"></div>
-                        <p class="cortar-actualidad">La importancia del Agua: SICE colabora en las jornadas del Día Mundial del Agua en la Confederación Hidrográfica del Tajo</p>
-                    </a>
-                </div> -->
             </div>
         </div>
 
@@ -274,6 +255,7 @@
             $("#lineasNegocio").append(tempData);
         });
     }
+
     creaLineasNegocio();
 
     abrirPresentacion = (obj)=>

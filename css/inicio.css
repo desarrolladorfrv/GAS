@@ -1,15 +1,4 @@
 
-.slick-dots li button:before
-{
-    font-size:30px !important;
-    color:silver !important;
-}
-
-.slick-dots li.slick-active button:before
-{
-    color:rgba(44, 44, 128, 0.8) !important;
-}
-
 .caroucel-img1
 {
     max-width:100%;

@@ -39,3 +39,60 @@
 {
     background-color: var(--color_tercero);
 }
+
+.caroucel-actual-img1
+{
+    max-width:100%;
+    min-height:200px !important;
+    /* clip-path:inset(0 1% 0 1%); */
+    background-image: url(../assets/image/TUNELES_0.jpg);
+    background-position: center;
+    background-size: cover;
+    /* text-align:center; */
+    margin:0px !important;
+}
+
+.card-actualidad
+{
+    height: 300px !important;
+    border-radius: 5px;
+    border:1px solid var(--color_tercero);
+    margin-left:20px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    /* display: inline-block; */
+    background: linear-gradient(to right, white 50%, var(--color_segundo) 50%);
+    background-size: 200% 100%;
+    transition:all 1s ease;
+}
+
+.card-actualidad:hover
+{
+    background-position:right bottom;
+    /* background: var(--color_segundo); */
+    /* transition: background 0.8s linear 0.2s; */
+    /* background: linear-gradient(to right, red 50%, blue 50%);
+    background-size: 200% 100%;
+    transition:all 2s ease; */
+}
+
+.actualidad_fecha
+{
+    color:silver;
+}
+
+.cortar-actualidad
+{
+    padding: 3px;
+    --font-size: 15px;
+    --line-height: 1.4;
+    --lines: 3;
+    display: -webkit-box;
+    /* height: var(--font-size)* var(--line-height) * var(--lines); */
+    font-size: var(--font-size);
+    /* line-height: var(--line-height); */
+    -webkit-line-clamp: var(--lines);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+}
